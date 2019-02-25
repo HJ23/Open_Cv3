@@ -14,7 +14,6 @@ using namespace cv;
 int x=0;
 vector<vector<Point> > contours;
 vector<vector<Point> >approximate_polyDP;
-vector<Moments> moments_x;
 Moments xaa;
 Mat image,grey_image,thresh_image,free_image;
 string fig;
